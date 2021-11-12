@@ -1,0 +1,390 @@
+.headercontentall{
+  background: #94d3ac;
+  height: 150px;
+  width: 100%;
+}
+
+.navigationleft{
+  height: 100px;
+  width: 30%;
+  position: relative;
+  float: left;
+  text-align: center;
+
+  }
+
+.navigationleft li{
+  position: relative;
+  margin: 20px 0 0;
+  background: black;
+  color: white;
+  display: block;
+  float: left;
+  width: 20%;
+  height: 30px;
+  padding: 2px 3px;
+  list-style-type: none;
+}
+
+.navigationleft li:hover{
+  background: grey;
+}
+
+.navigationleft a{
+  text-decoration: none;
+  color: white;
+}
+
+.imgdiv{
+  width: 10%;
+  position: relative;
+  float: left;
+  margin: 30px 10px;
+  padding: 10px;
+}
+
+#logo{
+  width: 100%;
+  border-radius: 100%;
+}
+
+.navigationright{
+  height: 100px;
+  width: 30%;
+  position: relative;
+  float: left;
+  }
+
+.navigationright li{
+  position: relative;
+  margin: 20px 0;
+  background: black;
+  display: block;
+  float: left;
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  padding: 2px 3px;
+  list-style-type: none;
+}
+
+.navigationright li:hover{
+  background: grey;
+}
+
+.navigationright a{
+  text-decoration: none;
+  color: white
+}
+
+.inputs{
+  width: 25%;
+  position: relative;
+  float: left;
+  border: 1px dotted green;
+  margin: 40px 5px;
+}
+
+.textfield{
+  width: 85%;
+  height: 30px;
+  position: relative;
+  float: left;
+}
+
+.searchergo{
+  width: 11%;
+  position: relative;
+  float: right;
+  height: 35px;
+}
+
+.searchergo:hover{
+  background: grey;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.allcontainer{
+  background: pink;
+  clear: both;
+}
+
+
+.leftcol{
+  background: #a8dda8;
+
+  width: 15%;
+  margin: 5px;
+  float: left;
+}
+
+.middlecol{
+  background: #39311d;
+  width: 49%;
+  margin: 5px;
+  float: left;
+}
+
+.middlecol p{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.middlecol h2{
+  font-family: 'Bungee Inline', cursive;
+}
+
+.rightcol{
+  width: 33%;
+  margin: 5px;
+  float: left;
+
+
+}
+
+
+.regions li{
+  display: block;
+  background: black;
+  padding: 5px;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.regions li:hover{
+  background: grey;
+}
+
+.regions a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: white;
+}
+
+.articshort{
+  border: 1px solid gray;
+  height: 330px;
+  width: 100%;
+  margin: 0 auto 20px;
+  background: #a8dda8;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.articshort h2{
+  font-style: italic;
+  font-weight: bold;
+}
+.articshort img{
+  display: block;
+  width: 50%;
+  float: left;
+  margin-right: 12px;
+
+}
+
+.articshort p{
+  text-align: justify;
+  margin-right: 5px;
+  padding-left: 11px;
+
+
+
+}
+
+.articshort a{
+  background: white;
+  border-radius: 100px;
+  padding: 10px;
+  text-decoration: none;
+  position: absolute;
+  right: 150px;
+}
+
+.articshort a:hover{
+  background: green;
+  color: white;
+}
+
+.fullarticle{
+  background: #8bcdcd;
+  margin: 10px;
+  text-align: center;
+}
+
+.fullarticle img{
+  width: 100%;
+  height: 300px;
+
+}
+
+
+.javatools{
+  background: #a8dda8;
+  position: relative;
+  height: 250px;
+  text-align: center;
+}
+
+
+#quizzer{
+
+  border-radius: 40%;
+  padding: 20px 30px;
+  background: #01c5c4;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+
+
+}
+
+#quizzer:hover {
+  background: #1a1c20;
+}
+
+
+#coloring{
+  display: block;
+  border-radius: 40%;
+  padding: 20px 30px;
+  background: #01c5c4;
+  color: white;
+  margin: 20px auto 0;
+  font-weight: bold;
+  border-style: none;
+
+}
+
+#coloring:hover{
+    background: #1a1c20;
+}
+
+
+
+.bio{
+  margin: 0 30px;
+  text-align: center;
+
+  height: 700px;
+}
+
+.bio p{
+  width: 45%
+  float: left;
+  text-align: justify;
+  margin-right: 5px;
+  padding-left: 11px;
+
+
+}
+
+#imgbio{
+  width: 30%;
+  text-align: left;
+  height: 330px;
+  float: left;
+  margin: 10px 20px;
+
+
+}
+
+.forms{
+  width: 700px;
+  margin: 5px auto;
+  border: 1px grey solid;
+  padding: 10px;
+}
+
+#subtn{
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px 0 15px 300px;
+  background: orange;
+}
+
+#subtn:hover{
+  color: white;
+  background: #34626c;
+}
+
+#msgbox{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer{
+  clear: left;
+}
+#copyright{
+  clear: left;
+  text-align: center;
+  font-weight: bold;
+}
+.footers{
+  background: grey;
+}
+
+.foot{
+  background: #94d3ac;
+  width: 33%;
+  height: 330px;
+  float: left;
+  margin: 2px;
+  text-align: center;
+}
+
+.aboutmedia{
+  margin: 0 30px;
+  background: #9088d4;
+  padding: 30px;
+
+}
+
+.media{
+  width: 400px;
+}
+
+.media li{
+  width: 70px;
+  display: inline;
+  padding: 5px;
+  margin-right: 5px;
+}
+.media a{
+  text-decoration: none;
+}
+
+.media a:hover{
+  color: white;
+
+}
+
+.schedule li{
+  display: block;
+  margin: 10px;
+}
